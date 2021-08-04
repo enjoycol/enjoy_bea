@@ -1,0 +1,23 @@
+.App-Allies h1 {
+  text-align: center;
+}
+.App-Allies {
+  background-color: var(--color-blanco);
+}
+.App-Allies h1 {
+  font-family: "MontserratBold";
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: var(--color-gris-oscuro);
+}
+
+.App-Allies-Image {
+  width: 300px;
+  filter: grayscale(1);
+}
+
+@media (min-width: 768px) {
+  .App-Allies-Image {
+    width: 180px;
+  }
+}

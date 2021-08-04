@@ -1,0 +1,162 @@
+.App-Qualify {
+  background-color: var(--color-gris-claro);
+}
+
+.App-Qualify-ContentTotal {
+  width: 715px;
+  height: auto;
+}
+.App-Qualify-Content {
+  background-color: white;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.App-Qualify-Title {
+  font-family: "Montserratblack";
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+}
+
+.App-Qualify-Subtitle {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.App-Qualify-TitleRes {
+  font-family: "Montserratmedium";
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+
+.App-Qualify-SubContent {
+  margin-left: 81px;
+  margin-right: 81px;
+}
+.App-Qualify-Div {
+  border: 2px solid #a8e4d4;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.App-Qualify-Btn {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: black;
+  background-color: #a8e4d4;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 44px;
+}
+.App-Qualify-Icons {
+  margin-top: 30px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-top: 25px;
+}
+.App-Qualify-Ico-Face {
+  font-size: 45px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.App-Qualify-Ico-FaceA {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.App-Qualify-Ico-FaceA-Style {
+  font-size: 65px;
+}
+.App-Qualify-Ico-StarA-Style {
+  margin-top: 19px;
+  font-size: 45px;
+}
+.App-Qualify-Content-5a {
+  margin-top: -9px;
+  margin-bottom: 10px;
+}
+.App-Qualify-Etiqueta-Val {
+  font-family: "Montserratregular";
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 0px;
+}
+.App-Qualify-Etiqueta-Name {
+  margin: 0px;
+  padding: 0px;
+}
+.App-Qualify-Etiqueta-Title {
+  font-family: "Montserratbold";
+  font-size: 14px;
+  color: #808080;
+}
+
+.Color-Hover {
+  color: #a8e4d4 !important;
+}
+.Color-Active {
+  color: #a8e4d4;
+}
+
+.Content-Icons-End {
+  padding-top: 30px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  .App-Qualify-ContentTotal {
+    width: 100%;
+    margin-top: -75px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .App-Qualify {
+    background-color: white;
+  }
+  .App-Qualify-Subtitle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .App-Qualify-SubContent {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .App-Qualify-Content {
+    margin-bottom: 30px;
+  }
+  .App-Qualify-TitleRes {
+    text-align: center;
+  }
+  .App-Qualify-Etiqueta-Title {
+    margin-bottom: 0px;
+  }
+  .App-Qualify-Etiqueta-Val {
+    margin-bottom: 22px;
+  }
+  .App-Qualify-Ico-Face {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .App-Qualify-Ico-FaceA {
+    margin-left: 3px;
+    margin-right: 5px;
+  }
+  .App-Qualify-Ico-FaceA-Style {
+    font-size: 60px;
+  }
+  .App-Qualify-Ico-StarA-Style {
+    font-size: 40px;
+  }
+  .App-Qualify-Content-5a {
+    margin-top: -12px;
+  }
+}

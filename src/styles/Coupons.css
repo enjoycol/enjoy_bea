@@ -1,0 +1,58 @@
+.Coupons-Card {
+    background-color: var(--color-gris-claro);
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.Coupons-Title {
+    font-family: "LatoBold", sans-serif;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.Coupons-Datetime-Text {
+    font-family: "LatoRegular", sans-serif;
+    color: var(--color-rojo);
+    margin-top: 10px;
+}
+
+.Coupons-Datetime {
+    font-family: "LatoRegular", sans-serif;
+    color: var(--color-rojo);
+    margin-top: -15px;
+}
+  
+.Coupons-Icon{
+    border-bottom: 1px solid grey ;
+}
+
+.Coupons-Text{
+    margin-top: 10px;
+}
+
+.Coupons-Content-Icon{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 150px !important;
+    color: var(--color-verde-claro);
+}
+
+.Coupons-Row{
+    max-width: 700px;
+    margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+    .Coupons-Card {
+      width: 100% !important;    
+      margin-right: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .Coupons-Card {
+        margin-right: 30px !important;
+    }
+  }
+

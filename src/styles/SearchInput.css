@@ -1,0 +1,108 @@
+.App-Header-Search input {
+  font-family: "MontserratMedium", sans-serif;
+  font-size: 0.8em;
+  border: none;
+  height: 3.5em;
+}
+
+.Active-Category-Name {
+  font-size: 0.8em;
+}
+
+.Filter-Button-Menu {
+  background-color: var(--color-gris-claro);
+}
+
+.App-Header-Search .input-group-text {
+  background-color: var(--color-blanco);
+  border: none;
+}
+
+.Filter-Button-Big-Categories,
+.Filter-Button-Big-Categories:hover,
+.Filter-Button-Big-Categories:active,
+.Filter-Button-Big-Categories:focus {
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-blanco) !important;
+  font-size: 1.4em;
+  border-color: #bde5d6;
+  min-width: 160px;
+  border-radius: 1px;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+}
+
+.Filter-Button-Big-Categories:after {
+  content: none;
+}
+
+.Filter-List-Item {
+  font-size: 0.8em;
+}
+
+.Filter-List-Item + .Filter-List-Item-Categoriesshow {
+  color: #7abebb;
+  text-transform: capitalize;
+}
+
+#Search-Input-Id .App-Header-Search input,
+#Search-Input-Id .App-Header-Search .input-group-text {
+  border: solid 2px var(--color-gris-claro);
+}
+
+#Search-Input-Id .App-Header-Search .input-group-text {
+  border-left: none;
+}
+
+#Search-Input-Id .App-Header-Search input {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .App-Header-Search input {
+    border-radius: 1.5em;
+  }
+
+  .Filter-Button-Big-Categories {
+    border-radius: 0.4em;
+  }
+}
+@media (min-width: 768px) {
+  .App-Header-Search {
+    width: 560px;
+  }
+}
+
+.App-Header-Search .Filter-Dropdown-List {
+  border-radius: 0px;
+}
+
+.App-Header-Search .Filter-Button-Big-Categories {
+  border-color: var(--color-gris-claro);
+  background-color: var(--color-gris-claro) !important;
+  font-size: 1.2em !important;
+}
+
+.App-Header-Search .Filter-Button-Big-Categories:hover {
+  border-color: var(--color-gris-claro);
+  background-color: var(--color-gris-claro) !important;
+}
+
+.Search-Input-Search {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .Filter-Button-Big-Categories {
+    border-radius: 0.4em 0 0 0.4em !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Filter-Button-Big-Categories {
+    border-radius: 0.4em 0 0 0.4em !important;
+  }
+  .App-Header-Search {
+    width: 480px;
+  }
+}

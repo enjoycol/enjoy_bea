@@ -1,0 +1,80 @@
+.Header-Row {
+  text-transform: uppercase;
+  position: relative;
+  height: 25rem;
+  background-color: var(--color-dorado);
+}
+
+.Header-Title {
+  font-size: 2.6em;
+  font-family: "MontserratRegular", sans-serif;
+  text-align: center;
+  color: white !important;
+}
+
+.Header-Subtitle {
+  font-family: "MontserratBlack", sans-serif;
+  font-size: 2.8em;
+  position: relative;
+  bottom: 0.35rem;
+  text-align: center;
+  color: white !important;
+}
+
+.Header-Img-Category {
+  height: 100%;
+  min-width: 100%;
+  filter: brightness(0.7);
+  object-fit: cover;
+}
+
+.App-Header-Container-Image {
+  height: 100%;
+  width: 100%;
+}
+
+.Header-Search {
+  position: absolute;
+  top: calc(100% - 65%);
+}
+
+@media (max-width: 768px) {
+  .Header-Title,
+  .Header-Title-Category {
+    font-size: 1.5em;
+  }
+
+  .Header-Subtitle,
+  .Header-Subtitle-Category {
+    font-size: 1.6em;
+  }
+
+  .Header-Title.Home-Title {
+    color: #303030 !important;
+  }
+
+  .Header-Subtitle.Home-Subtitle {
+    color: #303030 !important;
+  }
+
+  .Header-Search {
+    position: absolute;
+    top: calc(100% - 40%);
+  }
+
+  .Header-Row {
+    text-transform: uppercase;
+    position: relative;
+    height: 15rem;
+  }
+
+  .Header-Img-Category {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header-Img-Category {
+    max-width: 100%;
+  }
+}

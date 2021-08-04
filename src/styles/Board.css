@@ -1,0 +1,57 @@
+.App-Board-Card {
+  background-color: var(--color-blanco);
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.App-Board-Title {
+  font-size: 0.6em;
+}
+
+.App-Board-Value {
+  font-size: 0.7em;
+}
+
+.App-Board-Percent {
+  font-size: 0.5em;
+}
+
+.App-Board-Ico,
+span.icon-tienda {
+  font-size: 30px;
+}
+
+.Col-Percent-Gre {
+  color: #00a650;
+}
+
+.Col-Percent-Red,
+.Total-Red {
+  color: #b73639;
+}
+
+.App-Board-Col-Dorado,
+.App-Board-Card-Col {
+  background-color: var(--color-dorado);
+}
+
+.App-Board-Content-Chart {
+  position: relative;
+  top: -30px;
+}
+
+@media (max-width: 768px) {
+  .App-Board-Card-Col {
+    background-color: #f4f5fb;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App-Board-Card {
+    width: 200px !important;
+    height: 100px;
+  }
+}

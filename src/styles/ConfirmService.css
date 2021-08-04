@@ -1,0 +1,178 @@
+.App-Confirm {
+  background-color: var(--color-gris-claro);
+}
+
+.App-Confirm-ContentTotal {
+  width: 715px;
+  height: auto;
+}
+.App-Confirm-Content {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.App-Confirm-Title {
+  font-family: "Montserratblack";
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+}
+
+.App-Confirm-Subtitle {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.App-Confirm-TitleRes {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 5px;
+  font-family: "Montserratmedium";
+}
+
+.App-Confirm-SubContent {
+  margin-left: 81px;
+  margin-right: 81px;
+}
+.App-Confirm-Div {
+  border: 2px solid #a8e4d4;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #808080;
+}
+.App-Confirm-Btn {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: black;
+  background-color: #a8e4d4;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 44px;
+}
+.App-Confirm-Icons {
+  margin-top: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.App-Confirm-Ico-Ok,
+.App-Confirm-Ico-Cancel,
+.App-Confirm-Ico-Cancel-Red {
+  font-size: 65px;
+}
+.App-Confirm-Ico-Cancel {
+  margin-right: 120px;
+  color: #808080;
+}
+.App-Confirm-Ico-Ok {
+  margin-left: 120px;
+  color: #00bc35;
+}
+.App-Confirm-Ico-Ok:hover {
+  color: #00bc35;
+}
+.App-Confirm-Ico-Cancel-Red {
+  margin-right: 120px;
+  color: red;
+}
+.App-Confirm-Quest {
+  font-family: "Montserratblack";
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.App-Confirm-Ico-content span {
+  text-align: right;
+}
+
+.App-Confirm-TitleDesc {
+  font-family: "Montserratmedium";
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+.App-Confirm-Etiqueta-Title {
+  font-family: "Montserratbold";
+  font-size: 14px;
+  color: #808080;
+}
+.App-Confirm-Etiqueta-Val {
+  font-family: "Montserratregular";
+  font-size: 14px;
+  color: #808080;
+}
+
+.App-Confirm-Etiqueta-Name {
+  margin: 0px;
+  padding: 0px;
+}
+.App-Confirm-Input {
+  margin-bottom: 0px;
+  background-color: var(--color-blanco);
+  border-radius: 10px;
+}
+
+.App-Confirm-Input-Warn {
+  background-color: #ffecec;
+  border-radius: 10px;
+  border-color: red !important;
+}
+
+.App-Confirm-Group .Modal-Input {
+  border-color: grey;
+}
+
+@media (max-width: 767px) {
+  .App-Confirm-ContentTotal {
+    width: 100%;
+    margin-top: -75px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .App-Confirm {
+    background-color: white;
+  }
+  .App-Confirm-Subtitle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .App-Confirm-SubContent {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .App-Confirm-Content {
+    margin-bottom: 5px;
+  }
+  .App-Confirm-TitleRes {
+    text-align: center;
+  }
+  .App-Confirm-Etiqueta-Title {
+    margin-bottom: 0px;
+  }
+  .App-Confirm-Etiqueta-Val {
+    margin-bottom: 22px;
+  }
+  .App-Confirm-Ico-Ok,
+  .App-Confirm-Ico-Cancel,
+  .App-Confirm-Ico-Cancel-Red {
+    font-size: 45px !important;
+  }
+  .App-Confirm-Ico-Ok {
+    margin-left: 70px;
+  }
+  .App-Confirm-Ico-Cancel,
+  .App-Confirm-Ico-Cancel-Red {
+    margin-right: 70px;
+  }
+  .App-Confirm-TitleDesc {
+    margin-top: 40px !important;
+    text-align: center;
+  }
+  .App-Confirm-Input {
+    margin-bottom: 40px;
+  }
+}

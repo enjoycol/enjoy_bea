@@ -1,0 +1,30 @@
+.HomeHeader-Container {
+  height: 100%;
+  position: relative;
+  background-color: #EFF5F5;
+}
+
+.HomeHeader-Img {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.HomeHeader-Body {
+  width: 100%;
+  position: absolute;
+  top: calc(100% - 65%);
+}
+
+@media (max-width: 768px) {
+  .HomeHeader-Container {
+    height: 8rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 968px) {
+  .HomeHeader-InputSearch {
+    width: 50%;
+  }
+}

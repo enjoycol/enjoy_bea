@@ -1,0 +1,95 @@
+.Profile-Banner {
+  background-color: var(--color-dorado);
+  height: 5em;
+  font-size: 1.2em;
+  font-family: "MontserratSemiBold", sans-serif;
+}
+
+.Profile-Box {
+  padding: 40px;
+}
+
+.Profile-Box .nav-item {
+  text-align: center;
+  font-size: 2em;
+  border-color: var(--color-gris-oscuro) !important;
+  border-right: 1px solid;
+  background-color: var(--color-gris-claro);
+  color: black !important;
+}
+
+.Modal-Input-Box-Error {
+  background-color: var(--color-gris-claro);
+  border-radius: 10px;
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  border: solid red !important;
+}
+
+.nav-link:focus {
+  outline: none;
+}
+
+.Profile-Box .nav-item .active {
+  background-color: white;
+}
+
+.Tab-Icon {
+  color: black;
+}
+
+.Profile-Box .nav-item .active .icon-usuario,
+.Profile-Box .nav-item .active .icon-calendario {
+  color: var(--color-verde-claro) !important;
+}
+
+.Profile-Box .nav-item .active .icon-corazones {
+  color: red !important;
+}
+
+.Profile-Label {
+  font-size: 1.2em;
+  font-family: "MontserratSemiBold", sans-serif;
+  color: var(--color-gris-oscuro);
+}
+
+.Profile-Message {
+  font-size: 0.9em;
+  font-family: "MontserratSemiBold", sans-serif;
+  color: var(--color-gris-oscuro);
+}
+
+.User-Profile-Tab-Content {
+  min-height: calc(100vh - 10rem);
+}
+
+.Profile-Label-Updated {
+  color: #39a84a;
+  font-size: 0.9em;
+  margin-top: -30px;
+}
+
+.Profile-Label-Confirmation {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+  .Profile-Banner {
+    background-color: white;
+  }
+  .Profile-Nav {
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .Profile-Box .nav-item {
+    border-right: none;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 25%;
+  }
+  .Profile-Box {
+    padding: 0 20px 20px 20px;
+  }
+}

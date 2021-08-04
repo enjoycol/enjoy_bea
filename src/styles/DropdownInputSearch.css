@@ -1,0 +1,103 @@
+.DropdownInputSearch-Container {
+  box-shadow: 0 14px 38px 12px rgba(0, 0, 0, 0.18);
+}
+
+.DropdownInputSearch-Dropdown.show {
+  background-color: var(--color-blanco) !important;
+  border-radius: 5px 0 0 0;
+}
+
+.DropdownInputSearch-Dropdown {
+  background-color: var(--color-blanco) !important;
+  border-radius: 5px 0 0 5px;
+}
+
+.DropdownInputSearch-Toggle,
+.DropdownInputSearch-Toggle:hover,
+.DropdownInputSearch-Toggle:active,
+.DropdownInputSearch-Toggle:focus {
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-blanco) !important;
+  border-width: 0;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+  min-width: 160px;
+  border-radius: 5px 0 0 5px;
+}
+
+.DropdownInputSearch-Toggle {
+  flex-grow: 1;
+}
+
+.DropdownInputSearch-Toggle:after {
+  content: none;
+}
+
+.DropdownInputSearch-Dropdown-Menu {
+  margin: 0;
+  border-width: 0;
+  width: 100% !important;
+  font-family: "LatoRegular", sans-serif;
+  background: #eff5f5;
+  font-size: 0.7rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.DropdownInputSearch-List-Item {
+  font-family: "Montserrat";
+  color: var(--color-gris-oscuro);
+  padding: .7em 3.5em;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.DropdownInputSearch-List-Item:active {
+  background-color: transparent !important;
+}
+
+.DropdownInputSearch-List-Item:hover {
+  color: #2d3a35;
+  background-color: transparent !important;
+}
+
+.Input-Text {
+  height: auto;
+  border-width: 0 0 0 1px;
+  box-shadow: none !important;
+}
+
+.Input-Text:focus {
+  border-color: #ced4da;
+}
+
+.DropdownInputSearch-Input-Search {
+  font-size: 1.5rem;
+}
+
+.DropdownInputSearch-Button {
+  border: 0;
+}
+
+.DropdownInputSearch-Button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .Input-Text,
+  .DropdownInputSearch-Toggle {
+    font-size: 0.8rem;
+  }
+
+  .DropdownInputSearch-Toggle,
+  .DropdownInputSearch-Dropdown {
+    min-width: 120px !important;
+  }
+
+  .DropdownInputSearch-Dropdown-Menu {
+    left: -5px !important;
+    min-width: 100% !important;
+  }
+  .DropdownInputSearch-List-Item {
+    padding: 0.5em 2em;
+  }
+}

@@ -1,0 +1,153 @@
+.App-Dashboard {
+  font-family: "MontserratBold", sans-serif;
+  text-decoration: none;
+}
+
+.App-Dashboard-Logo {
+  height: 45px;
+  align-content: center;
+}
+
+.App-Dashboard-Link {
+  color: var(--color-negro);
+}
+
+.App-Dashboard-Link:hover {
+  color: var(--color-gris-oscuro);
+  text-decoration: none;
+}
+
+.ico-session-close {
+  font-size: 1.3em;
+}
+
+.App-Board-Pointer {
+  cursor: pointer;
+}
+
+.ico-red {
+  color: #b73639;
+}
+
+.icon-tijera_peine {
+  color: aquamarine;
+}
+
+.App-Board-Nav .nav-item {
+  height: 38px;
+}
+
+.App-Board-Header {
+  width: 15%;
+}
+
+.App-Board-Content {
+  width: 85%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App-Board-Header {
+    max-width: 22%;
+    width: 22%;
+  }
+
+  .App-Board-Content {
+    width: 78%;
+  }
+
+  .App-Board-Logout {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1248px) {
+  .App-Board-Logout {
+    font-size: 12px;
+  }
+  .App-Dashboard-Link {
+    margin-left: -10px;
+  }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 766px) {
+  .App-Board-Close-Icon {
+    margin-right: 210px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .App-Board-Header {
+    background-color: var(--color-dorado);
+    width: 100%;
+  }
+
+  .App-Board-Content {
+    width: 100%;
+  }
+
+  .App-Board-Link-Logo {
+    margin-left: -58px;
+    margin-top: 5px;
+  }
+
+  .App-Board-Icon-Menu-Cont {
+    margin-right: -50px;
+    margin-top: 5px;
+  }
+
+  .Modal-Close {
+    color: var(--color-gris-oscuro);
+    font-size: 20;
+  }
+
+  .Menu-Board-Modal {
+    margin: 0;
+    height: 100%;
+    background-color: white;
+  }
+
+  .Menu-Board-Modal .modal-content {
+    align-items: center;
+    border: none;
+    height: 50%;
+    justify-content: space-between;
+    position: fixed;
+  }
+
+  .Menu-Board-Modal-Links {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 33px;
+  }
+
+  .App-Board-Close-Icon {
+    margin-right: 3rem;
+  }
+}
+
+.App-Board-Icon-Menu {
+  font-size: 30px;
+}
+
+.App-Board-Text {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-negro);
+  font-size: 1.1em;
+}
+
+.App-Board-Nav-Mov {
+  margin-left: 60px !important;
+}
+
+.App-Board-Nav-Mov hr {
+  width: 140%;
+}
+
+.App-Dashboard-Logo-Mov {
+  margin-left: 45px;
+}
+
+.App-Dashboard-Content {
+  min-height: calc(100vh - 2rem);
+  background-color: #f4f5fb;
+}

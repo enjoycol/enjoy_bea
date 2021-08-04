@@ -1,0 +1,171 @@
+.Service-Item-Small {
+  background-color: var(--color-blanco);
+  min-width: 100%;
+}
+
+.Service-Item-Small-Body h1 {
+  font-family: "MontserratSemiBold";
+  text-transform: initial;
+}
+
+.Service-Item-Small-Description .icon-corazones_border {
+  font-size: 27px;
+  color: var(--color-negro);
+}
+
+.Service-Item .icon-corazones_border {
+  font-size: 20px;
+  color: var(--color-blanco);
+}
+
+.Service-Item-Small-Description .icon-corazones {
+  font-size: 20px;
+}
+
+.Service-Item-Small-Description .blackened {
+  color: var(--color-negro);
+}
+
+.Service-Item-Small p,
+label,
+.Service-Item-Small-Price h2 {
+  font-family: "MontserratRegular";
+}
+
+.Service-Duration {
+  color: #808080;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.Service-Item-Small-Description span {
+  color: #e94235;
+  border-width: 2px;
+  font-size: 27px;
+}
+
+.Service-Item-Small-Description span:hover {
+  color: #e94235;
+  cursor: pointer;
+  font-size: 27px;
+}
+
+.Popular {
+  max-width: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-negro);
+  background-color: var(--color-dorado);
+  border-width: 1px;
+  border-color: var(--color-dorado);
+  border-radius: 1.2em;
+}
+
+.Hidden-Popular {
+  margin-left: 65px;
+}
+
+.Service-Item-Small-Price {
+  width: 88%;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #545454;
+  border-radius: 15em;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: #f1f8f5;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  border: 1px solid #95a29d;
+  background-color: #bbe4d5;
+}
+
+@media (max-width: 768px) {
+  .Service-Item-Small-Description h1 {
+    font-size: 1em;
+  }
+
+  .Popular {
+    font-size: 0.5em;
+  }
+
+  .Description {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .Service-Price h2 {
+    font-size: 1.2em;
+  }
+
+  .Hidden-Popular {
+    display: none;
+  }
+
+  .Service-Item-Small-Icon-Content {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .Service-Item-Small-Price {
+    border-left-style: solid;
+    border-color: var(--color-gris-claro);
+    border-left-width: 2px;
+  }
+
+  .Service-Item-Small-Price label {
+    font-size: 0.875rem;
+    color: var(--color-gris-oscuro);
+  }
+
+  .Service-Item-Small-Description h1 {
+    font-size: 1.125rem;
+  }
+
+  .Popular {
+    font-size: 0.6em;
+  }
+
+  .Description {
+    height: 55px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+
+  .Service-Item-Small-Body {
+    width: 70% !important;
+  }
+
+  .Service-Item-Small-Price {
+    width: 26% !important;
+  }
+
+  .Service-Price h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #495057;
+  }
+
+  .Service-Price p {
+    font-size: 12px;
+  }
+
+  .Hidden-Popular {
+    display: block;
+  }
+}
+
+.Service-Item-Small-Icon {
+  color: #212529 !important;
+  font-size: 25px !important;
+}

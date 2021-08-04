@@ -1,0 +1,179 @@
+.Salon-Page {
+  background-color: var(--color-gris-claro);
+}
+
+.SalonPage-Header-Row {
+  overflow: hidden;
+  color: white;
+}
+
+.SalonPage-Body {
+  background-color: white;
+}
+
+.SalonPage-Header-Row .swiper-wrapper {
+  height: 385px;
+}
+
+.SalonPage-Img {
+  background-color: rgba(0, 0, 0, 0.8);
+  filter: brightness(0.6);
+  object-fit: cover;
+}
+
+.SalonPage-Header {
+  position: absolute;
+  z-index: 2;
+}
+
+.phone-Salon,
+.phone-Salon:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.SalonPage-Title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: "MontserratBold";
+}
+
+span.icon-furgoneta {
+  font-size: 15px;
+}
+
+span.icon-tienda {
+  font-size: 15px;
+}
+
+.Salon-Icon p {
+  font-size: 15px;
+}
+.Salon-Icon span {
+  font-size: 15px !important;
+}
+
+@media (max-width: 768px) {
+  .SalonPage-Header-Row {
+    height: 280px;
+  }
+
+  .SalonPage-Header-Row .swiper-wrapper {
+    height: 280px;
+  }
+
+  .SalonPage-Title {
+    font-size: 1.3em;
+  }
+
+  .SalonPage-Header {
+    height: 280px;
+  }
+
+  .Salon-Icon p,
+  .Address {
+    font-size: 0.8em;
+  }
+
+  .SalonPage-Header h5 {
+    font-size: 0.8em;
+  }
+
+  .SalonPage-Img {
+    width: 375px;
+  }
+
+  .Close {
+    max-width: 100%;
+    text-transform: uppercase;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    color: var(--color-negro);
+    font-size: 0.4em;
+    background-color: #b73639;
+    border-width: 1px;
+    border-color: var(--color-dorado);
+    border-radius: 0.5em;
+  }
+  .Open {
+    max-width: 100%;
+    text-transform: uppercase;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    color: var(--color-negro);
+    background-color: var(--color-dorado);
+    border-width: 1px;
+    border-color: var(--color-dorado);
+    border-radius: 0.5em;
+  }
+}
+@media (min-width: 768px) {
+  .Open {
+    text-transform: uppercase;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-negro);
+    background-color: var(--color-dorado);
+    border-width: 1px;
+    border-color: var(--color-dorado);
+    border-radius: 0.5em;
+  }
+  .Close {
+    text-transform: uppercase;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-negro);
+    background-color: #b73639;
+    border-width: 1px;
+    border-color: var(--color-dorado);
+    border-radius: 0.5em;
+  }
+
+  .SalonPage-Header-Row {
+    height: 385px;
+  }
+
+  .SalonPage-Header {
+    height: 385px;
+  }
+
+  .SalonPage-Nav-Container h3 {
+    font-size: 15px;
+  }
+}
+
+.SalonPage-Nav {
+  background-color: var(--color-blanco);
+}
+
+.SalonPage-Nav-Button {
+  padding: 2em 1em 1em 0.5em;
+  cursor: pointer;
+}
+
+.SalonPage-Nav-Container {
+  margin-bottom: -8px;
+}
+
+.SalonPage-About {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2 !important;
+}
+
+.SalonPage-Iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+.SalonPage-About-Title {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.Cont-SalonPage-About {
+  border-bottom: 0 solid rgb(204, 204, 204);
+  padding-bottom: 0;
+}

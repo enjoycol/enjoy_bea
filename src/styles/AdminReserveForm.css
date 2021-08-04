@@ -1,0 +1,130 @@
+.AdminReserveForm-Container {
+  border-top: solid;
+  border-width: 2px;
+  border-color: var(--color-gris-claro) !important;
+}
+
+.Form-Input,
+.Form-Input:focus {
+  border-color: var(--color-gris-claro);
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  font-size: 0.9em;
+  padding: 0;
+  padding-left: 5px;
+  box-shadow: none;
+  border-radius: 10px;
+  max-width: 280px;
+}
+
+.Form-Input-Error,
+.Form-Input-Error:focus {
+  border-color: red;
+  color: red;
+  font-family: "MontserratMedium", sans-serif;
+  font-size: 0.9em;
+  padding: 0;
+  padding-left: 5px;
+  box-shadow: none;
+  border-radius: 10px;
+  max-width: 280px;
+}
+.Form-Input-Error::placeholder {
+  color: red;
+}
+
+.Form-Input-Service,
+.Form-Input-Service:focus {
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  font-size: 0.8em;
+  padding: 0;
+  padding-left: 5px;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid var(--color-gris-claro);
+}
+
+.AdminReserveForm-Dropdown {
+  border-color: var(--color-gris-claro) !important;
+  border-radius: 10px;
+  border-width: 10px;
+  border: solid 1px;
+  max-width: 280px;
+}
+
+.AdminReserveForm-Dropdown-Error {
+  border-color: red !important;
+  border-radius: 10px;
+  border-width: 10px;
+  border: solid 1px;
+  max-width: 280px;
+}
+
+.AdminReserveForm-Text-Error {
+  color: red;
+}
+
+.AdminReserveForm-Dropdown.show {
+  background-color: var(--color-blanco) !important;
+  border-radius: 10px 10px 0 0;
+}
+
+.AdminReserveForm-Toggle,
+.AdminReserveForm-Toggle:hover,
+.AdminReserveForm-Toggle:active,
+.AdminReserveForm-Toggle:focus {
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-blanco) !important;
+  border-width: 0;
+  box-shadow: none !important;
+  border-radius: 10px;
+  font-size: 0.9em;
+  width: 100%;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+}
+
+.AdminReserveForm-List:after {
+  content: none;
+}
+
+.AdminReserveForm-Dropdown-List {
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  max-height: 170px;
+  overflow-y: auto;
+  width: 100%;
+  padding-top: 0;
+}
+
+.AdminReserveForm-List-Item {
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro) !important;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8em;
+}
+
+.AdminReserveForm-List-Item:active {
+  background-color: transparent !important;
+}
+
+.AdminReserveForm-List-Item-Active {
+  color: var(--color-verde-claro) !important;
+}
+
+.Created-Text-Alert {
+  text-align: center;
+  color: var(--color-verde-oscuro) !important;
+  font-size: 1.1em;
+}
+
+.Created-Text-Alert-Error {
+  text-align: center;
+  color: red !important;
+  font-size: 1.1em;
+}

@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  src: local("Montserrat"), url(./fonts/Montserrat-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: local("Montserrat"), url(./fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: local("Montserrat"),
+    url(./fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: local("LatoBold"), url(./fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: local("LatoLight"), url(./fonts/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: local("LatoRegular"), url(./fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?avf4lo');
+  src:  url('fonts/icomoon.eot?avf4lo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?avf4lo') format('truetype'),
+    url('fonts/icomoon.woff?avf4lo') format('woff'),
+    url('fonts/icomoon.svg?avf4lo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NO ESTA EN LOS NUEVOS ICONOS
+.icon-list2:before {
+  content: "\e9bb";
+} */
+
+.icon-cal_mal:before {
+  content: "\e900";
+}
+.icon-calendario:before {
+  content: "\e901";
+}
+.icon-call_fixed:before {
+  content: "\e902";
+}
+.icon-campana:before {
+  content: "\e903";
+}
+.icon-campana_cancelar:before {
+  content: "\e904";
+}
+.icon-controles:before {
+  content: "\e905";
+}
+.icon-corazones:before {
+  content: "\e906";
+}
+.icon-corazones_border:before {
+  content: "\e907";
+}
+.icon-cupon:before {
+  content: "\e908";
+}
+.icon-dashboar:before {
+  content: "\e909";
+}
+.icon-despleg:before {
+  content: "\e90a";
+}
+.icon-emoji_1:before {
+  content: "\e90b";
+}
+.icon-emoji_2:before {
+  content: "\e90c";
+}
+.icon-emoji_3:before {
+  content: "\e90d";
+}
+.icon-emoji_4:before {
+  content: "\e90e";
+}
+.icon-emoji_5a:before {
+  content: "\e90f";
+}
+.icon-emoji_5b:before {
+  content: "\e910";
+}
+.icon-enjoy-full:before {
+  content: "\e911";
+}
+.icon-enjoy-iso:before {
+  content: "\e912";
+}
+.icon-estrella_full:before {
+  content: "\e913";
+}
+.icon-estrella_med:before {
+  content: "\e914";
+}
+.icon-estrella_none:before {
+  content: "\e915";
+}
+.icon-facebook:before {
+  content: "\e916";
+}
+.icon-furgoneta:before {
+  content: "\e917";
+}
+.icon-gestionar_reservas:before {
+  content: "\e918";
+}
+.icon-google:before {
+  content: "\e919";
+}
+.icon-grafico-de-barras:before {
+  content: "\e91a";
+}
+.icon-instagram:before {
+  content: "\e91b";
+}
+.icon-logout:before {
+  content: "\e91c";
+}
+.icon-lupa:before {
+  content: "\e91d";
+}
+.icon-mapa-de-ubicacion:before {
+  content: "\e91e";
+}
+.icon-mas_derecha:before {
+  content: "\e91f";
+}
+.icon-mas_derecha_color:before {
+  content: "\e920";
+}
+.icon-mas_izquierda:before {
+  content: "\e921";
+}
+.icon-mas_izquierda_color:before {
+  content: "\e922";
+}
+.icon-menu:before {
+  content: "\e923";
+}
+.icon-objetivo:before {
+  content: "\e924";
+}
+.icon-ojo_cont:before {
+  content: "\e925";
+}
+.icon-pagar_online:before {
+  content: "\e926";
+}
+.icon-payu .path1:before {
+  content: "\e927";
+  color: rgb(240, 239, 235);
+}
+.icon-payu .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-payu .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(174, 183, 2);
+}
+.icon-payu .path4:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-payu .path5:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-payu .path6:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-payu .path7:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-payu .path8:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(186, 208, 0);
+}
+.icon-pin:before {
+  content: "\e92f";
+}
+.icon-poos-favor:before {
+  content: "\e930";
+}
+.icon-shop_enjoy:before {
+  content: "\e931";
+}
+.icon-tienda:before {
+  content: "\e932";
+}
+.icon-tijera_peine:before {
+  content: "\e933";
+}
+.icon-ubicacion:before {
+  content: "\e934";
+}
+.icon-usuario:before {
+  content: "\e935";
+}
+.icon-verificado:before {
+  content: "\e936";
+}
+.icon-verificado_full:before {
+  content: "\e937";
+}
+.icon-whatsapp:before {
+  content: "\e938";
+}

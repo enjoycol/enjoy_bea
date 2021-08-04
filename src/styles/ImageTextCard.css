@@ -1,0 +1,45 @@
+.ImageTextCard {
+  border-radius: 5px;
+  background-color: #eff5f5;
+}
+
+@media (min-width: 992px) {
+  .Container-Description {
+    padding: 0 90px 0 50px !important;
+  }
+
+  .Container-Img {
+    width: 40%;
+  }
+
+  .Container-Description {
+    width: 60%;
+    text-align: left;
+  }
+}
+
+.ImageTextCard h1 {
+  font-family: "MontserratSemiBold", sans-serif;
+  font-size: 1.4em;
+}
+
+.ImageTextCard-Image {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.ImageTextCard-Text p {
+  font-family: "LatoRegular", sans-serif;
+  text-align: initial;
+}
+
+@media (max-width: 768px) {
+  .ImageTextCard h1 {
+    font-size: 1em;
+  }
+
+  .Container-Description {
+    padding: 15px 15px;
+  }
+}

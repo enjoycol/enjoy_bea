@@ -1,0 +1,84 @@
+.ImageCard-Container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  font-family: "MontserratSemiBold";
+}
+
+.ImageCard-Container:hover {
+  box-shadow: 0 14px 38px 12px rgba(0, 0, 0, 0.18);
+}
+
+.ImageCard-Image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.ImageCard-Overlay {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.ImageCard-Container:hover .ImageCard-Overlay {
+  width: 50%;
+  left: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ImageCard-Text h1 {
+  font-size: 1.2rem;
+}
+
+.ImageCard-Text {
+  color: var(--color-blanco);
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.TextCard {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  text-shadow: 5px 3px 4px #00000087;
+  color: var(--color-blanco);
+}
+
+.ImageCard-Link,
+.ImageCard-Link:hover {
+  text-decoration: none;
+  color: var(--color-blanco);
+}
+
+@media (max-width: 767px) {
+  .TextCard {
+    bottom: 0;
+  }
+
+  .ImageCard-Container:hover .ImageCard-Overlay {
+    width: 100%;
+    left: 0;
+  }
+
+  .ImageCard-Text {
+    top: 30%;
+    left: 45%;
+    text-align: center;
+  }
+}

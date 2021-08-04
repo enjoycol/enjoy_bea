@@ -1,0 +1,283 @@
+.colorless {
+  background-color: white;
+}
+
+.App-Dashboard {
+  font-family: "MontserratNormal", sans-serif;
+  text-decoration: none;
+}
+
+.App-Reserves-Table {
+  background-color: var(--color-blanco);
+  border: 1px solid var(--color-gris-claro);
+  border-radius: 10px;
+  box-shadow: 5px 3px 10px var(--color-gris-oscuro);
+  margin-top: -20px;
+  font-weight: normal !important;
+}
+.App-Reserves-Col-Dorado {
+  background-color: var(--color-dorado);
+}
+
+.App-Reserves-Border {
+  border: 1px solid black;
+}
+
+.App-Reserves-Column {
+  padding-left: 0px !important ;
+  padding-right: 0px !important ;
+}
+
+.App-Reserves-Gris {
+  background-color: #f4f5fb;
+}
+
+.App-Reserves-Blanco {
+  background-color: var(--color-blanco);
+}
+
+.App-Reserves-Card {
+  border-radius: 7px;
+  color: white;
+  font-size: 0.7em;
+}
+
+.App-Reserves-Line {
+  width: 100%;
+  color: white;
+  border-top: 1px solid white;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.App_Reserves_Past {
+  background-color: #999999;
+}
+
+.App_Reserves_Today {
+  background-color: #58b79a;
+}
+
+.App_Reserves_Scheduled {
+  background-color: #429dbb;
+}
+
+.App_Reserves_Cancel {
+  background-color: #b73639;
+}
+
+.App_Reserves_TodayDate {
+  background-color: #f2f2f2;
+}
+
+.App-Reserves-Button {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-negro);
+  background-color: var(--color-gris-claro);
+  border: none;
+  border-radius: 1.5em;
+  width: 138px;
+}
+
+.App-Reserves-Button:active,
+.App-Reserves-Button:focus,
+.App-Reserves-Button:hover {
+  background-color: var(--color-dorado) !important;
+  border-color: var(--color-dorado) !important;
+  color: var(--color-negro) !important;
+}
+
+.App-Reserves-Drd.Filter-Button {
+  border-width: 0;
+  padding: 0;
+}
+
+.App-Reserves-Table .icon-calendario {
+  font-size: 25px;
+}
+
+.App-Reserver-Full-Width {
+  width: 100% !important;
+}
+
+.Reserve-By-Salon {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    max-width: 100%;
+  }
+}
+
+.App-Reserves-Arrow {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.letter-Capital {
+  text-transform: uppercase;
+}
+
+.first-letter-Capital {
+  text-transform: capitalize;
+}
+
+.App-Reserves-Point {
+  background-color: rgb(255, 0, 149);
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--color-blanco);
+  border-radius: 1em;
+}
+
+.App-Reserves-Service {
+  margin-bottom: 0px;
+}
+
+.App-Reserves-Current-Column {
+  background-color: var(--color-gris-claro);
+}
+
+@media (max-width: 767px) {
+  .App-Reserves-Table {
+    background-color: var(--color-gris-claro);
+    box-shadow: 0px 0px 0px var(--color-gris-oscuro);
+    margin-top: 10px;
+    width: 100% !important;
+    padding-left: -40px !important;
+    margin-left: 0px !important;
+    border: none !important;
+  }
+
+  .App-Reserves-Bar {
+    padding-right: 0px !important ;
+    padding-left: 0px !important ;
+    margin-top: 10px;
+  }
+  .App-Reserves-Column {
+    border: none !important;
+    background-color: #f4f5fb !important;
+  }
+  .fixed-top {
+    -moz-transition: top 2s;
+    -webkit-transition: top 2s;
+    -o-transition: top 2s;
+    top: 0px;
+    transition: all 0.3s ease-out;
+    z-index: 1000;
+    background-color: white;
+  }
+
+  .App_Reserves_Modal_Cancel_Tex {
+    margin-left: 10px !important;
+  }
+
+  .App_Reserves_Modal_Cancel .modal-content {
+    margin-left: 0px !important;
+  }
+
+  .App-Reserves-Filters {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .App-Reserver-Filter {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .App-Reserver-Filter-Calendar {
+    margin-top: 2px;
+  }
+  .App-Reserver-Filter-Icon-Arrow {
+    margin-top: 5px;
+  }
+  .App-Reserves-Action-Bar {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    margin-bottom: -2px;
+    box-shadow: 4px 10px 5px -4px rgba(204, 204, 204, 1);
+    background-color: var(--color-blanco);
+  }
+  .Filter-Dropdown-List {
+    width: 111px;
+  }
+}
+
+.App-Reserves-fixed {
+  position: fixed;
+  z-index: 1000;
+}
+
+.App-Reserver-Filter {
+  width: 50%;
+}
+
+.App-Reserves-More {
+  font-size: 18px;
+  font-weight: normal !important;
+}
+
+.Barra-Fija {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.App_Reserves_Modal_Cancel .modal-content {
+  background-color: transparent;
+  height: 0%;
+  margin-top: 150px;
+  max-width: 355px;
+  margin-left: 87px;
+  border: none;
+}
+
+.App_Reserves_Modal_Cancel_Text {
+  background-color: #b73639;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+}
+
+.App_Reserves_Modal_Cancel_TextTwo {
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+
+.App_Reserves_Modal_Cancel_TextTwo span {
+  font-size: 10px;
+  font-weight: 500;
+  color: #b73639;
+}
+
+.App_Reserves_Modal_Cancel_Button,
+.App_Reserves_Modal_Cancel_Button:active,
+.App_Reserves_Modal_Cancel_Button:focus,
+.App_Reserves_Modal_Cancel_Button:hover {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-blanco) !important;
+  background-color: #b73639 !important;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 24px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App-Board-Card {
+    width: 200px !important;
+    height: 100px;
+  }
+}

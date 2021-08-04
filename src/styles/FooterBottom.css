@@ -1,0 +1,72 @@
+
+.App-Footer-Link:hover {
+  color: #292929;
+  text-decoration: none;
+}
+
+.Link-Wopudev {
+  color: #131313;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.Link-Wopudev:hover {
+  color: #495057;
+  text-decoration: none;
+}
+
+.App-Footer-Social-Links span[class^="icon-"],
+.App-Footer-Social-Links span[class*=" icon-"] {
+  color: var(--color-blanco);
+}
+
+.App-Footer-Social-Links span[class^="icon-"]:hover,
+.App-Footer-Social-Links span[class*=" icon-"]:hover {
+  color: var(--color-verde-claro);
+}
+
+.App-Footer-Social-Links span {
+  margin-left: 0.1vw;
+  margin-right: 0.1vw;
+  font-size: 2em;
+}
+
+.App-Footer-Social-Links a,
+.App-Footer-Social-Links a:visited,
+.App-Footer-Social-Links a:hover {
+  text-decoration: none;
+}
+
+.App-Footer-Bottom {
+  font-size: 0.8em;
+  background-color: #F6E36B;
+  height: 53px;
+}
+
+.App-Footer-Bottom span {
+  color: #dc3545;
+}
+
+@media (min-width: 768px) {
+  .App-Footer-Bottom p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-Footer-Bottom {
+    height: 85px;
+  }
+}
+
+.App-Footer-Content-Bottom {
+  text-align: center;
+  padding: 15px 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App-Footer-Link {
+    font-size: 0.6em;
+  }
+}

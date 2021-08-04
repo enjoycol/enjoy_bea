@@ -1,0 +1,405 @@
+.Booking-Form {
+  background-color: var(--color-gris-claro);
+  width: 550px;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.modal-content p {
+  margin: 0;
+  /*  font-family: "LatoRegular", sans-serif;
+  font-size: 14px;*/
+}
+.BookingForm-List,
+.BookingForm-List:hover,
+.BookingForm-List:active,
+.BookingForm-List:focus {
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-blanco) !important;
+  font-size: 0.9em;
+  border-color: var(--color-gris-claro) !important;
+  border-width: 2px;
+  min-width: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+}
+
+.BookingForm-List:after {
+  content: none;
+}
+
+.BookingForm-Dropdown-List {
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+  max-height: 100px;
+  overflow-y: auto;
+  width: 50%;
+  min-width: 0;
+}
+
+.BookingForm-List-Item {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-gris-oscuro);
+  padding: 0.5em 1em;
+}
+
+.BookingForm-List-Item:active {
+  background-color: transparent !important;
+}
+
+.BookingForm-List-Item-Active {
+  color: var(--color-verde-claro) !important;
+}
+
+.Booking-Form-Footer .Booking-Alert {
+  margin-top: 20px;
+  font-size: 14px;
+  color: red;
+  font-family: "MontserratRegular", sans-serif;
+}
+
+.modal-dialog-centered {
+  justify-content: center;
+}
+
+.Booking-Form-Header {
+  padding: 10px 20px;
+  background-color: var(--color-dorado);
+}
+
+.Date-Box {
+  background-color: var(--color-blanco);
+}
+
+.Date-Box p {
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 0.875em;
+  font-family: "MontserratRegular", sans-serif;
+}
+
+.Input-Box .Modal-Input {
+  margin-top: 6px;
+  background-color: white;
+  font-size: 0.875em;
+  font-family: "MontserratRegular", sans-serif;
+  border: 1px solid var(--color-gris-oscuro);
+}
+
+.Payment-Box-Text {
+  font-size: 0.875em;
+  font-family: "MontserratRegular", sans-serif;
+}
+
+.Text-Professional {
+  font-size: 0.7em;
+  color: #808080;
+  font-family: "MontserratRegular", sans-serif;
+}
+
+.Total-Price-Text {
+  font-size: 0.875em;
+  font-family: "MontserratBold", sans-serif;
+}
+
+.Payment-Box .Cash,
+.Coupon-Box {
+  margin-top: 10px;
+}
+
+.Input-Box-Text {
+  font-size: 0.875em;
+  font-family: "MontserratSemiBold", sans-serif;
+}
+
+.Coupon-Box .input-group {
+  align-content: flex-end;
+  width: 60%;
+}
+
+.Coupon-Box .input-group .Modal-Input {
+  font-size: 13px;
+  background-color: white;
+  border: 1px solid var(--color-gris-oscuro);
+}
+
+.Coupon-Box p {
+  text-align: right;
+  font-size: 13px;
+}
+
+.Coupon-Box .Total {
+  font-size: 30px;
+  font-family: "MontserratBold", sans-serif;
+}
+
+.Booking-Terms {
+  font-size: 0.75em;
+  font-family: "MontserratRegular", sans-serif;
+  color: #808080;
+}
+
+/* .Register-Modal-Button,
+.Register-Modal-Button:hover {
+  margin: 20px 0;
+} */
+
+.Booking-Form-Footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Booking-Form-Body .input-group-text {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.Payment-Box .Cash p,
+.Payment-Box .Online p {
+  margin-left: 10px;
+  color: var(--color-gris-oscuro);
+}
+
+.Booking-Form-Header .Title-Box p {
+  font-size: 22px;
+  font-family: "MontserratMedium", sans-serif;
+}
+
+.Booking-Form-Header {
+  font-size: 0.875em;
+  font-family: "MontserratSemiBold", sans-serif;
+}
+
+.Services-Box,
+.Input-Box,
+.Payment-Box,
+.Coupon-Box {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Services-Box-Text {
+  font-size: 0.875em;
+  font-family: "MontserratSemiBold", sans-serif;
+  margin-bottom: 15px !important;
+}
+
+.Services-Box .Service {
+  background-color: #7abebb;
+  border-radius: 15px;
+  height: 30px;
+  width: 45%;
+  margin: 0 5px 10px 5px;
+}
+
+.Services-Box .Service p {
+  font-size: 0.875em;
+  font-family: "MontserratRegular", sans-serif;
+  color: white;
+}
+
+.Non-User-Modal-Header {
+  padding: 40px;
+  text-align: center;
+  background-color: #7abebb;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+.Non-User-Modal {
+  font-family: "MontserratRegular", sans-serif;
+}
+
+.modal-dialog {
+  max-width: 400px;
+}
+
+.Non-User-Modal-Footer {
+  padding: 30px 20px;
+}
+
+.modal-content {
+  border-radius: 40px;
+}
+
+.Status-Text {
+  text-align: center;
+  padding: 40px 10px 0 10px;
+  font-family: "MontserratRegular", sans-serif !important;
+}
+/*Date Picker*/
+
+.react-datepicker {
+  border: none !important;
+  font-family: "MontserratRegular", sans-serif !important;
+}
+
+.react-datepicker__header {
+  background-color: transparent !important;
+  padding-top: 0 !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range {
+  border-radius: 1.3rem !important;
+  background-color: #7abebb !important;
+  color: white !important;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover {
+  border-radius: 1.3rem !important;
+  background-color: var(--color-dorado) !important;
+  color: black !important;
+}
+
+/*Time Picker*/
+
+.Time-Box {
+  padding: 0 20px 20px 20px;
+}
+
+.Time-Sliders,
+.Time-Display {
+  width: 50%;
+}
+
+.rc-slider {
+  margin-top: 5px;
+}
+
+.Time-Display {
+  font-size: 25px;
+  font-family: "MontserratSemiBold", sans-serif;
+  padding-top: 40px;
+}
+
+.rc-slider-handle {
+  border: solid 2px #7abebb !important;
+  background-color: #7abebb !important;
+}
+
+.rc-slider-rail {
+  height: 1px !important;
+}
+
+.rc-slider-track {
+  background-color: transparent !important;
+}
+
+.Booking-Form-Footer .Online-Button {
+  background-color: #bad000 !important;
+}
+
+.Date-Box .react-datepicker {
+  font-size: 1em;
+}
+.Date-Box .react-datepicker__header {
+  padding-top: 1.4em;
+}
+.Date-Box .react-datepicker__month {
+  margin-top: 1em;
+}
+.Date-Box .react-datepicker__day-name,
+.Date-Box .react-datepicker__day {
+  width: 2.5em;
+  line-height: 2.5em;
+  margin: 0.166em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Date-Box .react-datepicker__current-month {
+  font-size: 1.6em;
+}
+.Date-Box .react-datepicker__navigation {
+  top: 1.6em;
+  line-height: 2.3em;
+}
+
+.Date-Box .react-datepicker__navigation:focus {
+  outline: none;
+}
+
+.Date-Box .react-datepicker__navigation--previous {
+  left: 1em;
+}
+.Date-Box .react-datepicker__navigation--next {
+  right: 1em;
+}
+
+.Payment-Box .icon-payu {
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .modal-content {
+    align-items: normal !important;
+  }
+  .Date-Box .react-datepicker {
+    font-size: default !important;
+  }
+  .Date-Box .react-datepicker__day-name,
+  .Date-Box .react-datepicker__day {
+    margin: 0.166rem !important;
+  }
+  .Booking-Form {
+    width: 100%;
+  }
+  .Time-Display-Message {
+    font-size: 9px;
+  }
+}
+
+.Booking-Form-Footer .Online-Button {
+  background-color: #bad000 !important;
+}
+
+.Modal-Button-Disabled,
+.Modal-Button-Disabled:hover {
+  background-color: #e7e7e7 !important;
+}
+
+.Booking-Form-Button-Disabled {
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-gris-oscuro) !important;
+  background-color: #e7e7e7 !important;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 24px;
+}
+
+.Booking-Form-Button {
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-dorado) !important;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 24px;
+}
+
+.Booking-Alert-Form {
+  margin-top: -24px !important;
+  font-size: 14px;
+  color: red;
+  font-family: "MontserratRegular", sans-serif;
+}

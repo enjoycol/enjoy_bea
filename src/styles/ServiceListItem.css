@@ -1,0 +1,205 @@
+.njy-service-card {
+  margin-top: 3rem !important;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-gris-claro);
+}
+
+.njy-service-card-img-container {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 230px;
+  position: relative;
+}
+
+.njy-service-card-salon-info-container,
+.njy-service-card-service-info-container {
+  background-color: var(--color-blanco);
+}
+
+.njy-service-card-img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.njy-service-card-img-container > Button {
+  font-size: 2em;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.njy-service-card-img-container .icon-corazones {
+  color: var(--color-rojo);
+}
+
+.njy-service-card-img-container .icon-corazones_border {
+  color: var(--color-blanco);
+}
+
+.njy-service-card-img-container .blackened {
+  color: var(--color-negro);
+}
+
+.njy-service-card-salon-info-container p {
+  font-family: "MontserratRegular";
+  font-size: 13px;
+}
+
+.njy-service-card-salon-info-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem 0;
+}
+
+.njy-service-card-service-info-price h4,
+.njy-service-card-service-info-name-duration h4,
+.njy-service-card-salon-info-header h4 {
+  font-family: "MontserratSemiBold";
+  font-size: 1.125rem;
+}
+
+.njy-service-card-salon-info-header-right-icons span {
+  font-size: 20px !important;
+}
+
+.njy-service-card-salon-info-header p {
+  margin-bottom: 4px;
+}
+
+.star-icons {
+  color: var(--color-amarillo);
+}
+
+.njy-service-card-salon-info-description {
+  padding: 1.25rem 1.5rem;
+}
+
+.njy-service-card-service-info-container {
+  border-top-style: solid;
+  border-color: var(--color-gris-claro);
+  padding: 1.25rem 1.5rem;
+}
+
+.njy-service-card-service-info-name-duration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.njy-service-card-service-info-buttons {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.njy-service-card-service-info-name-duration p {
+  font-size: 13px;
+  font-family: "MontserratRegular";
+  color: var(--color-verde-oscuro);
+}
+
+.njy-service-card-service-info-price .discount-price {
+  text-decoration: line-through;
+}
+
+.njy-button {
+  font-family: "MontserratMedium", sans-serif;
+  font-size: 0.8em;
+  border-radius: 1.5em;
+  padding: 5px 20px;
+}
+
+.njy-button-gold {
+  background-color: var(--color-dorado);
+  border-color: var(--color-dorado);
+  color: var(--color-negro);
+}
+
+.njy-button-gold:hover {
+  background-color: var(--color-dorado);
+  border-color: var(--color-dorado);
+  color: var(--color-negro);
+}
+
+.njy-button-gray {
+  background-color: var(--color-gris-claro);
+  border-color: var(--color-gris-claro);
+  color: var(--color-negro);
+}
+
+.njy-button-gray:hover {
+  background-color: var(--color-dorado);
+  border-color: var(--color-dorado);
+  color: var(--color-negro);
+  text-decoration: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .njy-service-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3rem;
+  }
+
+  .njy-service-card-img-container {
+    flex: 28%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    /* Keep overflow hidden in safari */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    position: relative;
+  }
+
+  /* El borde también se debe aplicar a la imagen */
+  .njy-service-card-img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0;
+    transition: transform 0.5s ease;
+  }
+
+  /* Efecto zoom */
+  .njy-service-card-img-container:hover .njy-service-card-img,
+  .njy-service-card-img-container:focus .njy-service-card-img {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+  }
+
+  /* Safari necesita un max-width */
+  .njy-service-card-img-container > Button {
+    left: 20px;
+    max-width: 80px;
+    text-align: left;
+  }
+
+  .njy-service-card-salon-info-container {
+    flex: 40%;
+  }
+
+  .njy-service-card-service-info-container {
+    flex: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-style: none;
+    border-left-style: solid;
+    border-color: var(--color-gris-claro);
+  }
+
+  .njy-service-card-service-info-name-duration {
+    flex-direction: column;
+  }
+
+  .njy-button-gold {
+    background-color: var(--color-blanco);
+    border-color: var(--color-negro);
+  }
+}

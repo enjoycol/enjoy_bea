@@ -1,0 +1,9 @@
+.Confirmation-Page-Message {
+  background-color: white;
+  border-radius: 30px;
+}
+
+.Status-Text {
+  display: flex;
+  flex-direction: column
+}

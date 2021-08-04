@@ -1,0 +1,47 @@
+.Booking-Card {
+  background-color: var(--color-gris-claro);
+  border-radius: 20px;
+}
+
+.Booking-Title {
+  font-family: "LatoBold", sans-serif;
+  font-size: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.Booking-Text {
+  font-family: "LatoRegular", sans-serif;
+  margin: 0;
+}
+
+.Booking-Text-Time {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-verde-oscuro);
+}
+
+.Booking-Datetime {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-rojo);
+}
+
+.Booking-Card div:first-child {
+  border-right: 1px solid #6c757d21;
+}
+
+.Booking-Button {
+  font-family: "LatoRegular", sans-serif;
+  border-radius: 20px;
+  background-color: #66666638;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .Booking-Card div:first-child {
+    border-right: none;
+    border-bottom: 1px solid #6c757d21;
+  }
+}
+
+.Booking-Msg-Cancel{
+  color:#64bc44;
+}

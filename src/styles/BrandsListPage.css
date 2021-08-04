@@ -1,0 +1,100 @@
+.BrandsListPage-Header {
+  height: 100%;
+}
+
+.BrandsListPage-Header-Img {
+  height: 100%;
+  width: 100%;
+}
+
+.BrandsListPage-Text {
+  height: 4rem;
+  background-color: #002f34;
+  color: var(--color-blanco);
+}
+
+.BrandsListPage-List-Container {
+  margin: 80px 0 130px 0;
+}
+
+
+.BrandsListPage-List-Item-Container:hover {
+  box-shadow: 3px 6px 9px 5px rgba(0, 0, 0, 0.18);
+}
+
+.BrandsListPage-List-Item-Container.A1 {
+  margin: auto;
+}
+.BrandsListPage-List-Item-Container.A0 {
+  margin: auto;
+}
+
+.BrandsListPage-List-Item-Container.A2 {
+  float: right;
+}
+
+.BrandsListPage-List-Item-Container {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+
+.BrandsListPage-List-Item-Image {
+  transition: transform 0.5s, filter 0.1s ease;
+  border-radius: 100%;
+  object-fit: none;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .BrandsListPage-List-Item-Container {
+    width: 50%;
+    height: 200px;
+    padding: 0.5rem;
+    border-radius: 0;
+    border-bottom: 4px solid #fbd53638;
+  }
+  .BrandsListPage-List-Item-Container.adjust-height {
+    padding-bottom: 100%;
+  }
+
+  .BrandsListPage-List-Item-Image {
+    object-fit: fill;
+    border-radius: 0;
+  }
+}
+
+.BrandsListPage-List-Item-Image:hover {
+  transform: scale(1.1);
+}
+
+.BrandsListPage-List-Item-Container:hover {
+  filter: grayscale(100%);
+}
+
+.BrandsListPage-Text h6 {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .BrandsListPage-Text h6 {
+    text-align: center;
+    width: 65%;
+    font-size: 1rem;
+  }
+
+  .BrandsListPage-List-Item-Container.A2 {
+    float: initial;
+  }
+
+  .BrandsListPage-List-Item-Container {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .BrandsListPage-List-Item-Container {
+    box-shadow:none;
+  }
+}

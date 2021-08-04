@@ -1,0 +1,41 @@
+.NavbarDropdown-Toggle,
+.NavbarDropdown-Toggle:hover,
+.NavbarDropdown-Toggle:active,
+.NavbarDropdown-Toggle:focus {
+  color: var(--color-negro) !important;
+  background-color: var(--color-blanco) !important;
+  border-width: 0;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+}
+
+.NavbarDropdown-Toggle {
+  flex-grow: 1;
+}
+
+.NavbarDropdown-Toggle:after {
+  content: none;
+}
+
+.NavbarDropdown-Dropdown-Menu {
+  margin: 0;
+  border-width: 0;
+  width: 100% !important;
+  font-family: "LatoRegular", sans-serif;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.NavbarDropdown-List-Item {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-negro);
+  padding: 0.5em 1em;
+}
+
+.NavbarDropdown-List-Item:active {
+  background-color: transparent !important;
+}
+
+.NavbarDropdown-List-Item:hover {
+  color: var(--color-verde-claro);
+  background-color: transparent !important;
+}

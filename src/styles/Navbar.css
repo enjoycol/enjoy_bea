@@ -1,0 +1,395 @@
+.App-logo {
+  height: 45px;
+}
+
+.App-Navbar {
+  background-color: var(--color-blanco);
+  position: sticky;
+  box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+}
+
+.Nav-Bar-Btn-Acceder {
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-width: 2px;
+    border-color: var(--color-negro);
+}
+
+.Nav-Bar-Btn-Acceder:hover {
+  border-color: #f6e36b !important;
+  background-color: #f6e36b !important;
+}
+
+.Nav-Bar-Btn-Acceder:focus {
+  border-color: #f6e36b !important;
+  background-color: #f6e36b !important;
+}
+
+.App-Navbar span {
+  color: var(--color-negro);
+}
+
+.App-Navbar.fixed-top {
+  -moz-transition: top 2s;
+  -webkit-transition: top 2s;
+  -o-transition: top 2s;
+  top: 0px;
+  transition: all 0.3s ease-out;
+}
+
+.Enjoy-Shop,
+.Enjoy-Shop:focus,
+.Enjoy-Shop:hover {
+  text-decoration: none;
+  color: var(--color-negro);
+  font-family: "LatoRegular", sans-serif;
+}
+
+.Container-Dropdown {
+  width: 45%;
+}
+
+@media (max-width: 767px) {
+  .App-Navbar {
+    background-color: var(--color-blanco);
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.App-Navbar-Link {
+  text-transform: uppercase;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  color: var(--color-negro);
+  font-family: "MontserratBold", sans-serif;
+}
+
+.Link-Text {
+  font-family: "MontserratMedium", sans-serif;
+}
+
+.App-Navbar-Link:hover {
+  color: var(--color-gris-oscuro);
+  text-decoration: none;
+}
+
+/*Modal Styles*/
+.Register-Modal {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.Register-Modal .modal-content {
+  border-radius: 20px;
+  border: none;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.Register-Modal .nav.nav-tabs {
+  border: none;
+  width: inherit;
+}
+
+.Modal-Tab {
+  padding: 40px 20px 0 20px;
+}
+
+#uncontrolled-tab-example-tab-register,
+#uncontrolled-tab-example-tab-login {
+  width: 50%;
+  text-align: center;
+  color: black;
+  border: none;
+  padding: 15px;
+}
+
+#uncontrolled-tab-example-tab-register {
+  border-top-left-radius: 20px;
+}
+
+#uncontrolled-tab-example-tab-login {
+  border-top-right-radius: 20px;
+}
+
+.Register-Modal-Button,
+.Register-Modal-Button:active,
+.Register-Modal-Button:focus,
+.Register-Modal-Button:hover {
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-negro) !important;
+  background-color: var(--color-dorado) !important;
+  border: none;
+  border-radius: 1.5em;
+  padding: 5px 24px;
+}
+
+.Modal-Button-Active {
+  background-color: var(--color-dorado) !important;
+  border-color: var(--color-dorado) !important;
+}
+
+.Modal-Row {
+  margin: 0;
+}
+
+.Modal-Row .input-group-text {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-content .nav-item.nav-link.active {
+  background-color: white;
+}
+
+.modal-content .nav-item.nav-link {
+  background-color: var(--color-gris-claro);
+}
+
+.Modal-Col {
+  padding: 0px 6px;
+}
+
+.Terms-Text {
+  margin-left: 5px;
+  font-family: "MontserratMedium", sans-serif;
+  font-size: 16px;
+}
+
+.Terms-Start {
+  color: var(--color-gris-oscuro);
+}
+
+.Terms {
+  margin-bottom: 5px;
+}
+
+.Modal-Password,
+.Modal-Password:active,
+.Modal-Password:focus,
+.Modal-Password:hover {
+  background-color: transparent !important;
+  border: none;
+  color: black !important;
+}
+
+.Modal-Input-Box {
+  background-color: var(--color-gris-claro);
+  border-radius: 10px;
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+}
+
+.Modal-Input,
+.Modal-Input:focus {
+  background-color: var(--color-gris-claro);
+  border-color: var(--color-gris-claro);
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  font-size: 0.9em;
+  padding: 0;
+  padding-left: 5px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.Modal-Input-Label {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 0.7em;
+}
+
+.Recover-Password,
+.Recover-Password:hover {
+  color: var(--color-negro);
+  text-decoration: none;
+}
+
+.Modal-Error {
+  font-family: "MontserratMedium", sans-serif;
+  color: #e22b27;
+  font-size: 0.8em;
+  width: 65%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .App-Navbar {
+    box-shadow: none;
+  }
+
+  .Modal-Col {
+    padding: 0;
+  }
+
+  .Terms-Start {
+    max-width: 50%;
+  }
+}
+
+.Alert-Modal-Text {
+  margin-top: 40px;
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+}
+
+.Register-Modal .modal-dialog {
+  max-width: 580px !important;
+}
+
+.btnFacebook {
+  width: 150px;
+  height: 35px;
+  background: #3b5998;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+  border: none;
+  border-radius: 31px 31px 31px 31px !important;
+}
+
+.fa-facebook {
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.btnGoogle {
+  width: 150px;
+  height: 35px;
+  background-color: #db3236 !important;
+  color: white !important;
+  text-align: center;
+  border: none;
+  border-radius: 31px 31px 31px 31px !important;
+}
+
+.btnGoogle div {
+  display: none;
+}
+
+.btnGoogle span {
+  padding: 0px !important;
+}
+
+.btnGoogle i {
+  margin-left: 25px;
+}
+
+.fa-google {
+  margin-right: 8px;
+}
+
+.Section-Social-Networks {
+  height: 130px;
+  background-color: var(--color-gris-claro);
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.Section-Social-Networks-Text {
+  background-color: var(--color-gris-claro);
+  padding: 30px 25px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.Nav-Bar-Btn-L {
+  text-decoration: none !important;
+  font-size: 1.5em;
+  color: var(--color-negro);
+  background-color: var(--color-dorado);
+  border: var(--color-negro) 1px solid;
+  border-top-left-radius: 1.5em !important;
+  border-bottom-left-radius: 1.5em !important;
+  border-right: 0;
+  width: 70px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.Nav-Bar-Btn-R {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-negro);
+  background-color: var(--color-blanco);
+  border-width: 1px;
+  border-color: var(--color-negro);
+  border-top-right-radius: 1.5em !important;
+  border-bottom-right-radius: 1.5em !important;
+  padding-right: 12px;
+  width: 70px;
+}
+
+@media (max-width: 767px) {
+  .Nav-Bar-Btn-L {
+    color: var(--color-dorado);
+  }
+  .Nav-Bar-Btn-R {
+    background-color: var(--color-dorado);
+    color: var(--color-negro);
+  }
+}
+
+.Nav-Bar-Btn-L:active,
+.Nav-Bar-Btn-L:focus,
+.Nav-Bar-Btn-L:hover {
+  background-color: #BAECD8 !important;
+  color: var(--color-blanco);
+}
+
+button.Nav-Bar-Btn-R:active,
+button.Nav-Bar-Btn-R:focus,
+button.Nav-Bar-Btn-R:hover {
+  background-color: #BAECD8 !important;
+  color: #303030;
+  outline: 0;
+}
+
+.NavBar-Pass {
+  color: #666666;
+  font-size: 0.7em;
+  margin-top: -13px;
+}
+
+.NavBar-Error-Pass {
+  color: #f14336 !important;
+  font-size: 0.7em;
+  margin-top: -13px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Link-List-Id {
+    display: none !important;
+  }
+  .App-Navbar-Link {
+    font-size: 10px;
+  }
+}
+
+.btn-Acceder-Margin {
+  margin-top: 0px;
+}
+
+.div-btn-user-Margin-left {
+  margin-left: -15px;
+}
+
+.btn-Acceder-Margin-Top {
+  margin-top: 0px;
+}
+
+.Nav-Bar-Padd-Bottom {
+  padding-bottom: 0px !important;
+}

@@ -1,0 +1,152 @@
+.Favorite-Card-Body {
+    width: 60%;
+}
+
+.Favorite-Card-Body h1 {
+    font-family: "MontserratSemiBold";
+    text-transform: initial;
+}
+
+.Favorite-Card-Description h1 {
+    font-size: 1.125rem;
+}
+
+.Favorite-Card-Description .icon-corazones_border {
+    font-size: 2em;
+    color: var(--color-negro);
+}
+
+.Favorite-Card-Description .icon-corazones {
+    font-size: 2em;
+}
+  
+.Favorite-Card-Description .blackened {
+    color: var(--color-negro);
+}
+
+.Favorite-Card-Description span {
+    font-size: 1.9em;
+    color: red;
+    border-width: 2px;
+}
+  
+.Favorite-Card-Description span:hover {
+    color: var(--color-negro);
+}
+
+.Favorite-Card-Price{
+    width: 36%;
+    border-left-style: solid;
+    border-color: var(--color-gris-claro);
+    border-left-width: 2px;
+}
+.Favorite-Card-Price h2 {
+    font-family: "MontserratRegular";
+    font-size: 1.125rem;
+}
+
+.Favorite-Card-Price p {
+    font-size: 12px;
+}
+
+.Service-Duration {
+    color: #808080;
+}  
+
+.Favorite-Card-Discount-Price {
+    text-decoration: line-through;
+    color: var(--color-gris-oscuro);
+}
+  
+.Favorite-Card-Buttons .Gray-Button:hover {
+    background-color: var(--color-dorado) !important;
+    border-color: var(--color-dorado) !important;
+    color: var(--color-negro) !important;
+}
+.Favorite-Card-Buttons .Button:hover {
+    background-color: var(--color-dorado) !important;
+    border-color: var(--color-dorado) !important;
+    color: var(--color-negro) !important;
+}
+
+.icon-corazones {
+    color: var(--color-rojo);
+}
+  
+   
+.Favorite-Card-Buttons .Gray-Button {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-negro);
+    background-color: var(--color-gris-claro);
+    border-width: 1px;
+    border-color: var(--color-gris-claro);
+    border-radius: 1.5em;
+    padding: 5px 24px;  
+}
+.Favorite-Card-Buttons .Button {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+    border-width: 1px;
+    border-color: var(--color-negro);
+    border-radius: 1.5em;
+}
+  
+@media (max-width: 768px) {
+    .Favorite-Card-Body {
+        height: 100%;
+        width: 100%;
+    }
+    .Favorite-Card-Description h1 {
+        font-size: 1em;
+    }
+    .Description {        
+        overflow: hidden;
+        width: 100%;
+    }
+    .Favorite-Card-Price {
+        border: none;
+        font-size: 1.2em;
+    }
+    .Favorite-Card-Price {
+        width: 88%;
+    }
+    .Favorite-Card-Price label {
+        font-size: 0.875rem;
+        color: var(--color-gris-oscuro);
+    }
+    .Favorite-Card-Buttons .Gray-Button {
+      text-transform: uppercase;
+      font-size: 0.5em;
+      font-family: "MontserratMedium", sans-serif;
+      font-weight: 500;
+      color: var(--color-negro);
+      text-decoration: none;
+      background-color: var(--color-gris-claro);
+      border-width: 1px;
+      border-color: var(--color-gris-claro);
+      border-radius: 1.5em;
+      padding: 5px 20px;
+    }
+    .Favorite-Card-Buttons .Button {
+      text-transform: uppercase;
+      font-size: 0.5em;
+      font-family: "MontserratMedium", sans-serif;
+      font-weight: 500;
+      color: var(--color-negro);
+      background-color: var(--color-dorado);
+      border-width: 1px;
+      border-color: var(--color-dorado);
+      border-radius: 1.5em;
+      
+    }
+}
+  
+  

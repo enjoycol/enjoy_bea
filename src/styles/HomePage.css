@@ -1,0 +1,52 @@
+.HomePage-Container {
+  position: absolute;
+}
+
+.App-List-Image-Card-Container {
+  position: relative;
+  bottom: calc(100vh - 90vh);
+}
+
+.App-Text {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .App-List-Image-Card-Container {
+    position: initial;
+  }
+
+  .App-Text {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+}
+
+.App-Button {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-negro);
+  background-color: var(--color-blanco);
+  border-width: 1px;
+  border-color: var(--color-negro);
+  border-radius: 1.5em;
+  padding: 5px 24px;
+}
+
+@media (max-width: 768px) {
+  .App-Button {
+    background-color: var(--color-blanco);
+  }
+}
+
+.App-Button:active,
+.App-Button:focus,
+.App-Button:hover {
+  background-color: var(--color-dorado) !important;
+  border-color: var(--color-dorado) !important;
+  color: var(--color-negro) !important;
+}

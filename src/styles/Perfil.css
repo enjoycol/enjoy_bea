@@ -1,0 +1,154 @@
+.App-Perfil-Head {
+  height: 239px;
+}
+.App-Perfil-Col-Dorado {
+  background-color: var(--color-dorado);
+}
+
+.App-Perfil-Gris {
+  background-color: #f4f5fb;
+}
+
+.App-Perfil-Content {
+  background-color: white;
+  width: 100%;
+  margin-top: -84px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 10px var(--color-gris-oscuro);
+  height: auto;
+}
+
+.App-Perfil-Input-Box {
+  background-color: var(--color-gris-claro);
+  border-radius: 5px;
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  margin-bottom: 15px;
+  height: 33px;
+}
+
+.App-Perfil-Input-Label {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 0.7em;
+}
+
+.App-Perfil-Label {
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  margin-top: 21px;
+}
+
+.App-Perfil-Label-Opt {
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  margin-left: 130px;
+}
+
+.App-Perfil-Icon {
+  margin-top: 2px;
+  margin-right: 5px;
+  font-size: 25px !important;
+}
+
+.App-Perfil-Img {
+  margin-top: -65px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.App-Perfil-Logo {
+  height: 150px;
+  align-content: center;
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  height: 135px;
+  width: 135px;
+}
+
+.App-Perfil-Title {
+  margin-left: 5px;
+}
+
+.App-Perfil-Label {
+  justify-content: left !important;
+  margin-left: 40px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App-Perfil-Label-Opt {
+    margin-left: 90px;
+  }
+  .App-Perfil-Label {
+    justify-content: left !important;
+    margin-left: 37px;
+  }
+}
+
+@media (max-width: 767px) {
+  .App-Perfil-Row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .App-Perfil-Gris {
+    padding-bottom: 0px !important;
+  }
+  .App-Perfil-Content {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+  }
+  .App-Perfil-Label-Opt {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .App-Perfil-Img {
+    background-color: transparent !important;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .App-Perfil-Container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .App-Perfil-Logo {
+    align-content: center;
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    height: 135px;
+    width: 135px;
+  }
+  .App-Perfil-Head {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    height: 200px;
+  }
+  .App-Perfil-Title {
+    font-size: 22px;
+    margin-left: 25px;
+    margin-bottom: -25px;
+  }
+  .App-Perfil-Label {
+    justify-content: center !important;
+    margin-left: 0px;
+  }
+}
+
+.Content-Logo-Head {
+  z-index: 2;
+  overflow: hidden;
+  margin-top: -5px;
+}
+.Img-Logo-Head {
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  height: 35px;
+  width: 35px;
+}

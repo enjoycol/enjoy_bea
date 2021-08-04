@@ -1,0 +1,21 @@
+.Image-Card-Img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.Image-Card-Img:hover {
+  box-shadow: 0 14px 38px 12px rgb(0 0 0 / 18%);
+}
+
+.Image-Card-Img-Link {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.Image-Card-Img-Link:hover {
+  box-shadow: 0 14px 38px 12px rgb(0 0 0 / 18%);
+}

@@ -1,0 +1,125 @@
+.App-Perfil-Label h2 {
+  font-family: "MontserratSemiBold", sans-serif;
+  font-size: 1.1em;
+}
+.App-Perfil-Label h3 {
+  font-size: 1.1em;
+}
+.Row-Professional-Time h2 {
+  font-size: 0.9em;
+}
+
+.icon-cal_mal {
+  color: red;
+}
+
+.App-Perfil-Label p {
+  font-size: 0.9em;
+  color: var(--color-gris-oscuro);
+}
+
+.Professional-List,
+.Professional-List:hover,
+.Professional-List:active,
+.Professional-List:focus {
+  color: var(--color-gris-oscuro) !important;
+  background-color: var(--color-blanco) !important;
+  font-size: 0.9em;
+  border-color: var(--color-gris-claro) !important;
+  border-width: 2px;
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: none !important;
+  font-family: "LatoRegular", sans-serif;
+}
+
+.Professional-List:after {
+  content: none;
+}
+
+.Professional-Dropdown-List {
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+  max-height: 170px;
+  overflow-y: auto;
+  width: 100%;
+  min-width: 0;
+}
+
+.Professional-List-Item {
+  font-family: "LatoRegular", sans-serif;
+  color: var(--color-gris-oscuro);
+  padding: 0.5em 1em;
+}
+
+.Professional-List-Item:active {
+  background-color: transparent !important;
+}
+
+.Professional-List-Item-Active {
+  color: var(--color-verde-claro) !important;
+}
+
+.Row-Professional-Select-Container {
+  border-top: solid;
+  border-width: 3px;
+  border-color: var(--color-gris-claro) !important;
+}
+
+.Datetime-Input,
+.Datetime-Input:focus {
+  border-color: var(--color-gris-claro);
+  font-family: "MontserratMedium", sans-serif;
+  color: var(--color-gris-oscuro);
+  font-size: 0.9em;
+  padding: 0;
+  padding-left: 5px;
+  box-shadow: none;
+  border-radius: 10px;
+  max-width: 280px;
+}
+
+.Blocked-Button {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-family: "MontserratMedium", sans-serif;
+  font-weight: 500;
+  color: var(--color-negro);
+  border-width: 1px;
+  border-radius: 1.5em;
+  padding: 5px 24px;
+  background-color: var(--color-dorado) !important;
+  border-color: var(--color-dorado) !important;
+}
+
+.Blocked-Button:hover {
+  color: var(--color-negro) !important;
+}
+
+.Tbody-Tr {
+  border-top: solid;
+  border-width: 1px;
+  border-color: var(--color-gris-claro) !important;
+}
+
+@media (max-width: 768px) {
+  .Blocked-Button {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-family: "MontserratMedium", sans-serif;
+    font-weight: 500;
+    color: var(--color-negro);
+    background-color: var(--color-dorado);
+    border-width: 1px;
+    border-color: var(--color-dorado);
+    border-radius: 1.5em;
+    padding: 5px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Row-Professional-Time {
+    min-height: 200px;
+  }
+}
